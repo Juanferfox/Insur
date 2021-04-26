@@ -1,0 +1,317 @@
+/* font-family: 'DM Serif Display', serif; */
+/* font-family: 'Karla', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'DM Serif Display';
+  background: white;
+  z-index: 1;
+
+}
+
+body {
+  margin: 0 30px;
+  background: white;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  padding-left: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 80px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  color:  hsl(273, 4%, 51%);
+  font-size: 12px;
+  list-style: none;
+
+}
+.menu-toggle {
+  display: none;
+}
+
+.blog,
+.account,
+.how {
+  margin: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: hsl(273, 4%, 51%);
+}
+
+.how:hover,
+.blog:hover,
+.account:hover {
+color: hsl(270, 9%, 17%);
+}
+
+.view {
+  margin: 10px;
+  border: 2px hsl(273, 4%, 51%) solid;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: hsl(273, 4%, 51%);
+}
+
+.view:hover {
+  color: white;
+  background-color:hsl(270, 9%, 17%) ;
+}
+
+.home hr {
+  width: 150px;
+  background-color: hsl(273, 4%, 51%);
+  margin: 80px 0 20px 0px;
+}
+
+.imageresponsive {
+  display: none;
+}
+
+.home {
+  background: hsl(256, 26%, 20%);
+  font-family: 'Karla', sans-serif;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 80px;
+  height: 540px;
+}
+
+.view2 {
+  border: 2px white solid;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px ;
+  position: relative;
+  top: 40px;
+}
+
+.view2:hover{
+  background-color:  white;
+  color: hsl(270, 9%, 17%);
+}
+
+.home-text {
+  width: 45%;
+  padding-bottom: 20px;
+}
+
+.image {
+  position: absolute;
+  right: 30px;
+  margin-top: 80px;
+}
+
+.vector1 {
+  position: absolute;
+  right: 30px;
+  height: 500px;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+
+.home h1 {
+  font-size: 60px;
+  font-family: 'DM Serif Display';
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.vector2 {
+  position: absolute;
+  height: 500px;
+  left: 30px;
+  top: 500px;
+}
+
+
+.title h2 {
+  font-size: 60px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+.title hr {
+  margin: 400px 0 20px 80px;
+  background-color: hsl(270, 9%, 17%);
+  width: 150px;
+}
+
+.icons {
+  background: white;
+  height: 500px;
+  font-family: serif;
+  color: hsl(270, 9%, 17%);
+  display: flex;
+  margin: 0 80px 0 80px;
+}
+
+.icons h2 {
+  margin: 30px 0 20px 0;
+  font-family: 'Karla';
+}
+
+.icons p {
+  margin-right: 50px;
+  color: hsl(273, 4%, 51%);
+}
+
+
+.svg {
+  margin: 0 0 50px 0;
+}
+
+.work {
+  background: hsl(256, 26%, 20%);
+  color: hsl(273, 4%, 51%);
+  font-family: 'Karla';
+  font-weight: 700;
+  margin: 20px 80px 80px 80px;
+  padding: 20px 0 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  overflow: hidden;
+}
+
+.work h2 {
+  font-size: 60px;
+  font-family: 'DM Serif Display';
+}
+
+.work a {
+  border: 2px white solid;
+  color: white;
+  font-size: 15px ;
+  padding: 5px 10px;
+  position: absolute;
+  right: 160px;
+  text-decoration: none;
+}
+
+.work a:hover {
+  background-color:  white;
+  color: hsl(270, 9%, 17%);
+}
+
+
+footer {
+  background: hsl(0, 0%, 98%);
+  font-family: 'Karla';
+}
+
+.foot1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 80px 0 80px;
+  padding: 50px 0 20px 0;
+}
+
+.hrfoot {
+  position: relative;
+  margin: 0 80px 0 80px;
+}
+
+.vector4 {
+  position: absolute;
+}
+
+.facebook {
+  margin: 5px;
+  fill: gray;
+}
+
+.facebook:hover {
+ cursor: pointer;
+ fill: black;
+
+}
+
+.twitter {
+  margin: 5px;
+  fill: gray;
+}
+
+.twitter:hover {
+  cursor: pointer;
+  fill:black;
+}
+
+.pinterest {
+  margin: 5px;
+  fill: gray;
+}
+
+.pinterest:hover {
+  cursor: pointer;
+  fill:black;
+}
+
+.instagram {
+  margin: 5px;
+  fill: gray;
+}
+
+.instagram:hover {
+  cursor: pointer;
+  fill:black;
+}
+
+.foot2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 200px 80px 80px;
+  align-items: center;
+  height: 200px;
+  position: relative;
+
+}
+
+
+h3 {
+  font-size: 12px;
+  font-weight: normal;
+  margin: 10px 0 10px 0;
+  ;
+
+}
+
+h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.letters {
+  margin-bottom: 20px;
+  color: gray;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.letters:hover {
+  text-decoration: none;
+  cursor: auto;
+}
+
+.vector-responsive-nav {
+  display: none;
+}

@@ -1,0 +1,245 @@
+body {
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+header {
+  height: 70px;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.icon {
+  padding-left: 20px;
+  float: left;
+}
+
+.site-nav {
+  margin: 0;
+  /* height: 125vh; */
+  width: 100%;
+  padding: 0;
+  top: 100%;
+  right: 0;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  background: hsl(270, 9%, 17%);
+  /* height: 0;
+  overflow: hidden; */
+  clip-path: circle(0px at top right);
+  transition: clip-path ease-in-out 700ms;
+}
+
+.vector-responsive-nav {
+  display: block;
+  position: absolute;
+}
+
+.site-nav-open {
+  clip-path: circle(150% at top right);
+}
+
+.site-nav ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  display: block;
+  padding: 2em 6em;
+  
+}
+
+.blog,
+.account,
+.how,
+.view {
+  color: hsl(0, 0%, 98%);
+}
+
+.how:hover,
+.blog:hover,
+.account:hover {
+  color: hsl(0, 0%, 98%);
+}
+
+.menu-toggle {
+  display: block;
+  padding: 1em 0.5em;
+  position: absolute;
+  top: 1.2em;
+  right: 1.2em;
+  border: 1px solid hsl(270, 9%, 17%);
+}
+
+.menu-open .hamburguer {
+  transform: rotate(45deg);
+}
+
+.menu-open .hamburguer::before {
+  opacity: 0;
+}
+
+.menu-open .hamburguer::after {
+  transform: translateY(-3px) rotate(-90deg);
+}
+
+.hamburguer,
+.hamburguer::before,
+.hamburguer::after {
+  content: '';
+  display: block;
+  background: hsl(270, 9%, 17%);
+  height: 3px;
+  width: 1.75em;
+  border-radius: 3px;
+  transition: all ease-in-out 500ms;
+}
+
+.hamburguer::before {
+  transform: translateY(-6px);
+}
+
+.hamburguer::after {
+  transform: translateY(3px);
+}
+
+.imageresponsive {
+  display: block;
+  width: 100%;
+}
+
+.home-text {
+  width: 90%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+
+.home-text h1 {
+  font-size: 30px;
+}
+
+.home hr{
+  display: none;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 60px;
+  margin: 0;
+  width: 100%;
+  padding-left: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.title hr {
+  margin-top: 100px;
+  margin-left: 0;
+  margin: 100px auto 0;
+}
+
+.title h2 {
+  font-size: 40px;
+  margin: 0 auto 35px;
+  
+}
+
+.icons {
+  display: block;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.icons h2 {
+  margin: 20px auto 0px;
+}
+
+.icons i {
+  margin: 10px;
+}
+
+.icons p {
+  margin: 10px 0 40px 0;
+}
+
+.work {
+  margin: auto auto 50px;
+  padding: 40px 0 80px;
+  align-items: center;
+  height: auto;
+  width: 90%;
+  display: block;
+  align-items: center;
+  text-align: center;
+  color: hsl(0, 0%, 98%);
+}
+
+.work h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  
+}
+
+.work a {
+position: unset;
+}
+
+footer {
+  text-align: center;
+  align-items: center;
+  height: auto;
+}
+
+.redes {
+  margin-top: 20px;
+}
+
+.foot1 {
+  display: block;
+  margin: auto;
+  height: auto;
+}
+
+.foot2 {
+  display: block;
+  margin: auto;
+  height: auto;
+}
+
+.letters {
+  margin: 20px 0 0 0;
+}
+
+.image {
+  display: none;
+}
+.vector1 {
+  display: none;
+}
+.vector2 {
+  display: none;
+}
+.vector3 {
+  display: none;
+}
+.vector4 {
+  display: none;
+}
